@@ -17,21 +17,22 @@
 <div class="row-fluid">
 	<div class="span12">
 		<div class="row-fluid">
-			<div class="span3"></div>
-			<div class="span6">
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
 				<div class="panel panel-default">
 					<div class="panel-heading"><h4>Add a blog post</h4></div>
 					<div class="panel-body">
-						<p class="lead">This is a demo blog for me.</p>
+						<p class="lead">This is a demo blog for me to write some fluff and gain a certificate in MySQL.</p>
 						<form action="index.php" method="" accept-charset="utf-8">
-							<label for="author">Author: </label><input id="author" type="text" name="author" value="">
-							<label for="post">Post: </label><input id="post" type="text" name="post" value="">
-							<button type="button" class="btn btn-primary">Post This</button>
+							<input id="author" type="text" name="author" placeholder="Your name.." class="form-control">
+							<textarea id="post" name="post" placeholder="Your blog post.." class="form-control"></textarea>
+							<button type="button" class="btn btn-primary btn-block">Post</button>
+							<a href="#" class="btn btn-danger btn-block">Cancel</a>
 						</form>
 					</div>
 				</div>
 			</div>
-			<div class="span3"></div>
+			<div class="col-md-3"></div>
 		</div>
 	</div>
 </div>
